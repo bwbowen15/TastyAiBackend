@@ -9,7 +9,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.OPTIONS})public class ChatController {
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.OPTIONS})
+public class ChatController {
 
     private final OpenAIService openAIService;
 
